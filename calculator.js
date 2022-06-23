@@ -4,11 +4,6 @@ var a = prompt ("Enter first number: " );
 
 let calc = prompt ( "Choose any of these options for your calculation: \n'+' for Addition \n'-' for Subtraction \n'*' for Multiplication \n'/' for Division \n'%' for Modulus");
     
-// let operator = ("+, -, /, *, %");
-//     while (calc == operator);
-// // calc = true
-// // while (calc);
-
     if (calc == "+"){
         var b = prompt ("Enter second number: " );
         addNum();
